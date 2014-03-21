@@ -1,0 +1,1476 @@
+TMyGame iOS
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Info.plist /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Info.plist
+cCpResource ios/Icon-120.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-120.png
+cCpResource ios/Icon-76.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-76.png
+cCpResource ios/Default@2x.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default@2x.png
+cCpResource ios/Icon-100.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-100.png
+cCpResource /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseNormal.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseNormal.png
+cCpResource ios/Icon-152.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-152.png
+cCpResource ios/Default-568h@2x.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default-568h@2x.png
+cCpResource ios/Icon-72.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-72.png
+cCpResource /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseSelected.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseSelected.png
+cCpResource ios/Icon-50.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-50.png
+cCpResource ios/Icon-114.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-114.png
+cCpResource /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/HelloWorld.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/HelloWorld.png
+cCpResource ios/Icon-29.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-29.png
+cCpResource ios/Icon-40.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-40.png
+cCpResource ios/Icon-144.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-144.png
+cCpResource ios/Icon-80.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-80.png
+cCpResource ios/Icon-57.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-57.png
+cCpResource ios/Default.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default.png
+cCpResource ios/Icon-58.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-58.png
+cProcessPCH++ /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.pch ios/Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppController.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/RootViewController.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppDelegate.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/main.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/HelloWorldScene.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS normal i386
+cGenerateDSYMFile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app.dSYM /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS
+cTouch /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000532A0D6100000000000003B4
+t1395264865
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532A0D64000000000000019E
+t1395264868
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000532A0D650000000000484210
+t1395264869
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000532A0D650000000000904120
+t1395264869
+s9453856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000532A0D650000000000446820
+t1395264869
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000532A0D66000000000088D8C0
+t1395264870
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000532A0D66000000000007C0D0
+t1395264870
+s508112
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000532A0D660000000000037680
+t1395264870
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000532A0D67000000000048F720
+t1395264871
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000532A0D680000000001F1DE10
+t1395264872
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libz.dylib
+c00000000532A0D6F000000000002B700
+t1395264879
+s177920
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp
+c000000005323C6880000000000000558
+t1394853512
+s1368
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp
+c000000005323C68800000000000009DB
+t1394853512
+s2523
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseNormal.png
+c000000005323C68800000000000018A7
+t1394853512
+s6311
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseSelected.png
+c000000005323C688000000000000157B
+t1394853512
+s5499
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/HelloWorld.png
+c000000005323C6880000000000021E19
+t1394853512
+s138777
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app
+t1395272567
+s816
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app.dSYM
+t2
+s0
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/CloseNormal.png
+t1395272564
+s6311
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/CloseSelected.png
+t1395272564
+s5499
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default-568h@2x.png
+t1395272564
+s193731
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default.png
+t1395272564
+s89508
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default@2x.png
+t1395272564
+s580904
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/HelloWorld.png
+t1395272564
+s138777
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-100.png
+t1395272564
+s17283
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-114.png
+t1395272564
+s16537
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-120.png
+t1395272564
+s23871
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-144.png
+t1395272564
+s26403
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-152.png
+t1395272564
+s33665
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-29.png
+t1395272564
+s4038
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-40.png
+t1395272564
+s5478
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-50.png
+t1395272564
+s7038
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-57.png
+t1395272564
+s8960
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-58.png
+t1395272564
+s8433
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-72.png
+t1395272564
+s11453
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-76.png
+t1395272564
+s13250
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-80.png
+t1395272564
+s12489
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Info.plist
+t1395272564
+s1155
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/MyGame iOS
+t1395272566
+s8063316
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/PkgInfo
+t1395272564
+s8
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libCocosDenshion iOS.a
+c00000000532A2B740000000000055138
+t1395272564
+s348472
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libbox2d iOS.a
+c00000000532A2B7300000000001CF9A8
+t1395272563
+s1898920
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libchipmunk iOS.a
+c00000000532A2B4700000000000B7580
+t1395272519
+s750976
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libcocos2dx iOS.a
+c00000000532A2B6D000000000C9DA720
+t1395272557
+s211658528
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libcocos2dx-extensions iOS.a
+c00000000532A2B72000000000142E038
+t1395272562
+s21159992
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/AppController.o
+t1395272566
+s928528
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/AppDelegate.o
+t1395272566
+s1096044
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/HelloWorldScene.o
+t1395272566
+s1523508
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/MyGame iOS.LinkFileList
+c00000000532A2B74000000000000030D
+t1395272564
+s781
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/RootViewController.o
+t1395272566
+s1130296
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/main.o
+t1395272565
+s4116
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm
+c000000005323C6880000000000001648
+t1394853512
+s5704
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Default-568h@2x.png
+c000000005323C688000000000002F4C3
+t1394853512
+s193731
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Default.png
+c000000005323C6880000000000015DA4
+t1394853512
+s89508
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Default@2x.png
+c000000005323C688000000000008DD28
+t1394853512
+s580904
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-100.png
+c000000005323C6880000000000004383
+t1394853512
+s17283
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-114.png
+c000000005323C6880000000000004099
+t1394853512
+s16537
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-120.png
+c000000005323C6880000000000005D3F
+t1394853512
+s23871
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-144.png
+c000000005323C6880000000000006723
+t1394853512
+s26403
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-152.png
+c000000005323C6880000000000008381
+t1394853512
+s33665
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-29.png
+c000000005323C6880000000000000FC6
+t1394853512
+s4038
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-40.png
+c000000005323C6880000000000001566
+t1394853512
+s5478
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-50.png
+c000000005323C6880000000000001B7E
+t1394853512
+s7038
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-57.png
+c000000005323C6880000000000002300
+t1394853512
+s8960
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-58.png
+c000000005323C68800000000000020F1
+t1394853512
+s8433
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-72.png
+c000000005323C6880000000000002CBD
+t1394853512
+s11453
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-76.png
+c000000005323C68800000000000033C2
+t1394853512
+s13250
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-80.png
+c000000005323C68800000000000030C9
+t1394853512
+s12489
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Info.plist
+c000000005323C68800000000000007CC
+t1394853512
+s1996
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch
+c00000000532A29EC00000000000000B5
+t1395272172
+s181
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm
+c000000005323C6880000000000000DF6
+t1394853512
+s3574
+
+N/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m
+c00000000532A29EC0000000000000167
+t1395272172
+s359
+
+N/var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.pch
+t1395272565
+s5370252
+
+N/var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.pch
+t1395272565
+s6315412
+
+N/var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.pch
+t1395272564
+s123372
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9e28ddf462dab841^e223def462dab841^---0#1#1#--18"Check dependencies36"C7039104-CCF3-476D-89A9-EF05176AD3C7-
+
+CCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppController.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416965365.119637
+e416965366.274638
+r1
+xCompileC
+xbuild/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/AppController.o
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCEAGLView.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCESRenderer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCPlatformDefine.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/cocos2d.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCRef.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCGeometry.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCConsole.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCStdC.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAffineTransform.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/kazmath.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/utility.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat4.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/quaternion.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/plane.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/aabb.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGL.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccGLStateCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGLProgram.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScriptSupport.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCCommon.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEvent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCSet.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProtocols.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccTypes.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTexture2D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListener.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCVector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimation.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCValue.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionEase.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTween.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCQuadCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/GL/matrix.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommandPool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDictionary.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/uthash.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCString.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCInteger.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCFloat.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDouble.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCBool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCNS.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCData.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCCustomCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrabber.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCConfiguration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDirector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventType.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabel.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCBatchCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScene.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransition.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenu.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCGroupCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSprite.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCImage.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCFrustum.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCMaterialManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderMaterial.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCDevice.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCSAXParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCThread.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCApplication.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCApplicationProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGLView.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCGLViewProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCShaderCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccShaders.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccUTF8.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNotificationCenter.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProfiling.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCUserDefault.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCVertex.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDelegate.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScheduler.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDeprecated.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm210"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppController.o [1mios/AppController.mm[0m normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler0abd1ef562dab841^cf4e46f662dab841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm0000000000000000^4717"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppController.o [1mios/AppController.mm[0m normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios -include /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch -MMD -MT dependencies -MF /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppController.d --serialize-diagnostics /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppController.dia -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/AppController.mm -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppController.o36"85F1F693-7B36-42A7-8611-8ACD449BC2B2-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppDelegate.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416965365.120189
+e416965366.284668
+r1
+xCompileC
+xbuild/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/AppDelegate.o
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/cocos2d.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCRef.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCPlatformDefine.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCGeometry.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCConsole.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCStdC.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAffineTransform.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/kazmath.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/utility.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat4.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/quaternion.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/plane.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/aabb.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGL.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccGLStateCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGLProgram.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScriptSupport.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCCommon.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEvent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCSet.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProtocols.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccTypes.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTexture2D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListener.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCVector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimation.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCValue.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionEase.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTween.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCQuadCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/GL/matrix.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommandPool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDictionary.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/uthash.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCString.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCInteger.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCFloat.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDouble.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCBool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCNS.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCData.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCCustomCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrabber.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCConfiguration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDirector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventType.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabel.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCBatchCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScene.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransition.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenu.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCGroupCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSprite.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCImage.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCFrustum.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCMaterialManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderMaterial.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCDevice.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCSAXParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCThread.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCApplication.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCApplicationProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGLView.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCGLViewProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCShaderCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccShaders.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccUTF8.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNotificationCenter.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProfiling.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCUserDefault.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCVertex.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDelegate.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScheduler.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDeprecated.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp251"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppDelegate.o [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler55da1ef562dab841^fce048f662dab841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp0000000000000000^4495"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppDelegate.o [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios -include /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch -MMD -MT dependencies -MF /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppDelegate.dia -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/AppDelegate.cpp -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/AppDelegate.o36"26BB6ABD-2B4B-495C-884B-770D4056B8E1-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/HelloWorldScene.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416965365.121063
+e416965366.309453
+r1
+xCompileC
+xbuild/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/HelloWorldScene.o
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/cocos2d.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCRef.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCPlatformDefine.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCGeometry.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCConsole.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCStdC.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAffineTransform.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/kazmath.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/utility.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat4.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/quaternion.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/plane.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/aabb.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGL.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccGLStateCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGLProgram.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScriptSupport.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCCommon.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEvent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCSet.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProtocols.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccTypes.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTexture2D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListener.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCVector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimation.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCValue.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionEase.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTween.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCQuadCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/GL/matrix.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommandPool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDictionary.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/uthash.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCString.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCInteger.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCFloat.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDouble.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCBool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCNS.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCData.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCCustomCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrabber.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCConfiguration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDirector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventType.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabel.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCBatchCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScene.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransition.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenu.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCGroupCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSprite.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCImage.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCFrustum.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCMaterialManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderMaterial.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCDevice.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCSAXParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCThread.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCApplication.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCApplicationProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGLView.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCGLViewProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCShaderCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccShaders.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccUTF8.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNotificationCenter.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProfiling.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCUserDefault.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCVertex.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDelegate.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScheduler.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp259"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/HelloWorldScene.o [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler12141ff562dab841^693a4ff662dab841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp0000000000000000^4519"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/HelloWorldScene.o [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios -include /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch -MMD -MT dependencies -MF /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/HelloWorldScene.d --serialize-diagnostics /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/HelloWorldScene.dia -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Classes/HelloWorldScene.cpp -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/HelloWorldScene.o36"94C23323-E5DC-4C75-962F-A43AF523946D-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/RootViewController.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416965365.119859
+e416965366.173821
+r1
+xCompileC
+xbuild/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/RootViewController.o
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/cocos2d.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCRef.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCPlatformDefine.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCGeometry.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccMacros.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCConsole.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCStdC.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAffineTransform.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/kazmath.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/utility.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/vec3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/mat4.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/quaternion.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/plane.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/aabb.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray2.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/ray3.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccCArray.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGL.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccGLStateCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGLProgram.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScriptSupport.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCCommon.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEvent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCSet.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProtocols.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccTypes.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTexture2D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListener.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCVector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimation.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCValue.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionEase.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionTween.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCQuadCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/math/kazmath/kazmath/GL/matrix.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderCommandPool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDictionary.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/uthash.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCString.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCInteger.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCFloat.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCDouble.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCBool.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCNS.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCData.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCCustomCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrabber.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCConfiguration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDirector.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventType.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLabel.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCBatchCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScene.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransition.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenu.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCGroupCommand.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSprite.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCImage.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCFrustum.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCMaterialManager.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderMaterial.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/renderer/CCRenderer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventCustom.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCDevice.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCSAXParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCThread.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCApplication.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCApplicationProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCGLView.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/CCGLViewProtocol.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCShaderCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccShaders.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/ccUTF8.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCNotificationCenter.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCProfiling.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCUserDefault.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCVertex.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDelegate.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCIMEDispatcher.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTextureCache.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerTouch.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerKeyboard.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventMouse.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCEventListenerAcceleration.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCScheduler.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponent.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/CCDeprecated.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCEAGLView.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/CCESRenderer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm220"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/RootViewController.o [1mios/RootViewController.mm[0m normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerb5c01ef562dab841^f27a2cf662dab841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm0000000000000000^4747"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/RootViewController.o [1mios/RootViewController.mm[0m normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios -include /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch -MMD -MT dependencies -MF /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/RootViewController.dia -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/RootViewController.mm -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/RootViewController.o36"BF95ED6D-F87D-4BCE-BA9C-FE198C5C8B7A-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCompileC build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/main.o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416965365.120692
+e416965365.143147
+r1
+xCompileC
+xbuild/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/main.o
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/Simulation/AccelerometerSimulation.h
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/base/CCPlatformConfig.h
+oIn file included from /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m:4:
+o[1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation/AccelerometerSimulation.h:54:40: [0m[0;1;35mwarning: [0m[1m
+o      'UIAccelerometer' is deprecated: first deprecated in iOS 5.0 -
+o      UIAccelerometer has been replaced by the CoreMotion framework
+o      [-Wdeprecated-declarations][0m
+o@interface CCAccelerometerSimulation : UIAccelerometer <NSMachPortDelegate>
+o[0;1;32m                                       ^
+o[0mIn file included from /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m:1:
+oIn file included from /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch:7:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h:33:12: [0m[0;1;30mnote: [0m
+o      'UIAccelerometer' declared here[0m
+o@interface UIAccelerometer : NSObject {
+o[0;1;32m           ^
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m189"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/main.o [1mios/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd9051ff562dab841^7aa524f562dab841^-1328"In file included from /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m:4:[1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation/AccelerometerSimulation.h:54:40: [0m[0;1;35mwarning: [0m[1m      'UIAccelerometer' is deprecated: first deprecated in iOS 5.0 -      UIAccelerometer has been replaced by the CoreMotion framework      [-Wdeprecated-declarations][0m@interface CCAccelerometerSimulation : UIAccelerometer <NSMachPortDelegate>[0;1;32m                                       ^[0mIn file included from /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m:1:In file included from /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch:7:In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h:9:[1m/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h:33:12: [0m[0;1;30mnote: [0m      'UIAccelerometer' declared here[0m@interface UIAccelerometer : NSObject {[0;1;32m           ^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@124"'UIAccelerometer' is deprecated: first deprecated in iOS 5.0 - UIAccelerometer has been replaced by the CoreMotion framework-416965365#18446744073709551615#0#2(2@98"In file included from /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m:4:-416965365#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@80"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m0000000000000000^3#8#3#8#113#0#21"Apple LLVM 5.1 Notice--2@31"'UIAccelerometer' declared here-416965365#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccelerometer.h0000000000000000^32#11#32#11#924#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@123"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/cocos2d/cocos/2d/platform/ios/Simulation/AccelerometerSimulation.h0000000000000000^53#39#53#39#2183#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@80"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m0000000000000000^4532"[1mCompileC[0m build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/main.o [1mios/main.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios -include /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch -MMD -MT dependencies -MF /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/main.dia -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/main.m -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/main.o36"D12B5E63-962B-4400-B457-10E3DA8B03FF-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseNormal.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseNormal.png
+s416965364.870787
+e416965364.871701
+r1
+xCpResource
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseNormal.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/CloseNormal.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/CloseNormal.png198"[1mCpResource[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseNormal.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseNormal.png[0ma9f9def462dab841^c231dff462dab841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/CloseNormal.png00349c6cdcffdf42^804"[1mCpResource[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseNormal.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseNormal.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseNormal.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"CE572F62-AE5D-43BC-9023-CDCF41C24987-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseSelected.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseSelected.png
+s416965364.872050
+e416965364.872995
+r1
+xCpResource
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseSelected.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/CloseSelected.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/CloseSelected.png202"[1mCpResource[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseSelected.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseSelected.png[0mf548dff462dab841^037cdff462dab841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/CloseSelected.png00349c6cdcffdf42^810"[1mCpResource[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseSelected.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/CloseSelected.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/CloseSelected.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"65165C50-307B-4348-A096-D4962124D843-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/HelloWorld.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/HelloWorld.png
+s416965364.872987
+e416965364.874294
+r1
+xCpResource
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/HelloWorld.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/HelloWorld.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/HelloWorld.png196"[1mCpResource[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/HelloWorld.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/HelloWorld.png[0m3f8ddff462dab841^0fd2dff462dab841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/HelloWorld.png00349c6cdcffdf42^801"[1mCpResource[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/HelloWorld.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/HelloWorld.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/Resources/HelloWorld.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"7E08D879-FF10-4E54-9BF7-E967534960AA-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Default-568h@2x.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default-568h@2x.png
+s416965364.871240
+e416965364.872531
+r1
+xCpResource
+xios/Default-568h@2x.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default-568h@2x.png150"[1mCpResource[0m ios/Default-568h@2x.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default-568h@2x.png[0mb728dff462dab841^255ddff462dab841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Default-568h@2x.png00349c6cdcffdf42^767"[1mCpResource[0m ios/Default-568h@2x.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default-568h@2x.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Default-568h@2x.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"1B8827D3-E080-4BAB-932F-7B8AF47E882F-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Default.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default.png
+s416965364.875106
+e416965364.876010
+r1
+xCpResource
+xios/Default.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default.png134"[1mCpResource[0m ios/Default.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default.png[0mce1ae0f462dab841^3d43e0f462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Default.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Default.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Default.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"A36B26DD-926F-48C3-BD4F-7EFE72290FCF-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Default@2x.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default@2x.png
+s416965364.870414
+e416965364.871715
+r1
+xCpResource
+xios/Default@2x.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Default@2x.png140"[1mCpResource[0m ios/Default@2x.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default@2x.png[0m8fe0def462dab841^de3adff462dab841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Default@2x.png00349c6cdcffdf42^752"[1mCpResource[0m ios/Default@2x.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Default@2x.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Default@2x.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"892EB970-CDF8-4AC9-826D-9C13D1C20CEA-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-100.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-100.png
+s416965364.870585
+e416965364.871511
+r1
+xCpResource
+xios/Icon-100.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-100.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-100.png136"[1mCpResource[0m ios/Icon-100.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-100.png[0m4eefdef462dab841^d82cdff462dab841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-100.png00349c6cdcffdf42^746"[1mCpResource[0m ios/Icon-100.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-100.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-100.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"0B713147-9746-4EF2-822B-F2BAA0031E2E-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-114.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-114.png
+s416965364.872718
+e416965364.873874
+r1
+xCpResource
+xios/Icon-114.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-114.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-114.png136"[1mCpResource[0m ios/Icon-114.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-114.png[0m707adff462dab841^80b8dff462dab841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-114.png00349c6cdcffdf42^746"[1mCpResource[0m ios/Icon-114.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-114.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-114.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"93AF49D2-B2AD-4F3F-8A2A-861AF3AE847F-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-120.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-120.png
+s416965364.870134
+e416965364.871080
+r1
+xCpResource
+xios/Icon-120.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-120.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-120.png136"[1mCpResource[0m ios/Icon-120.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-120.png[0m89cedef462dab841^cafddef462dab841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-120.png00349c6cdcffdf42^746"[1mCpResource[0m ios/Icon-120.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-120.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-120.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"2F0B13D1-F43C-4D5B-B8B6-772E26F6D4CB-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-144.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-144.png
+s416965364.874224
+e416965364.875161
+r1
+xCpResource
+xios/Icon-144.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-144.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-144.png136"[1mCpResource[0m ios/Icon-144.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-144.png[0m29e7dff462dab841^ea08e0f462dab841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-144.png00349c6cdcffdf42^746"[1mCpResource[0m ios/Icon-144.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-144.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-144.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"97AACA0F-014A-48ED-9E95-9E5CA8BABA1B-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-152.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-152.png
+s416965364.871020
+e416965364.871994
+r1
+xCpResource
+xios/Icon-152.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-152.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-152.png136"[1mCpResource[0m ios/Icon-152.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-152.png[0m2c0edff462dab841^6e4cdff462dab841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-152.png00349c6cdcffdf42^746"[1mCpResource[0m ios/Icon-152.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-152.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-152.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"31B69F03-7B61-4ABF-80C0-2C991C571BBE-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-29.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-29.png
+s416965364.873232
+e416965364.874322
+r1
+xCpResource
+xios/Icon-29.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-29.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-29.png134"[1mCpResource[0m ios/Icon-29.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-29.png[0mdd97dff462dab841^dae1dff462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-29.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-29.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-29.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-29.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"34198D08-60F5-4E61-8704-4C7F5BF9AB56-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-40.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-40.png
+s416965364.873974
+e416965364.874772
+r1
+xCpResource
+xios/Icon-40.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-40.png134"[1mCpResource[0m ios/Icon-40.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-40.png[0m68cddff462dab841^7cf3dff462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-40.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-40.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-40.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-40.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"AD31DD10-0085-4858-B8BE-18659B72C57C-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-50.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-50.png
+s416965364.872366
+e416965364.873348
+r1
+xCpResource
+xios/Icon-50.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-50.png134"[1mCpResource[0m ios/Icon-50.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-50.png[0md064dff462dab841^6494dff462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-50.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-50.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-50.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-50.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"021C5D50-F931-4C3E-970B-C04E41EBAFD7-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-57.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-57.png
+s416965364.874820
+e416965364.875625
+r1
+xCpResource
+xios/Icon-57.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-57.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-57.png134"[1mCpResource[0m ios/Icon-57.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-57.png[0m2a02e0f462dab841^b328e0f462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-57.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-57.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-57.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-57.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"F81DC604-5CFF-48C5-92B9-B24F7DF9FC28-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-58.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-58.png
+s416965364.875398
+e416965364.876552
+r1
+xCpResource
+xios/Icon-58.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-58.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-58.png134"[1mCpResource[0m ios/Icon-58.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-58.png[0m6f2ce0f462dab841^1767e0f462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-58.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-58.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-58.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-58.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"1310A753-618A-45F9-96E7-AA1DC344452B-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-72.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-72.png
+s416965364.871624
+e416965364.872684
+r1
+xCpResource
+xios/Icon-72.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-72.png134"[1mCpResource[0m ios/Icon-72.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-72.png[0m003bdff462dab841^5a68dff462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-72.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-72.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-72.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-72.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"692385C0-C6D9-44D9-BC9D-78E014DB798D-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-76.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-76.png
+s416965364.870294
+e416965364.871144
+r1
+xCpResource
+xios/Icon-76.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-76.png134"[1mCpResource[0m ios/Icon-76.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-76.png[0mdcd6def462dab841^a60ddff462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-76.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-76.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-76.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-76.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"4ECEEAF8-BA03-45D5-9877-D38C88C51076-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CCpResource ios/Icon-80.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-80.png
+s416965364.874375
+e416965364.875257
+r1
+xCpResource
+xios/Icon-80.png
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-80.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Icon-80.png134"[1mCpResource[0m ios/Icon-80.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-80.png[0m32e5dff462dab841^7214e0f462dab841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app/Icon-80.png00349c6cdcffdf42^743"[1mCpResource[0m ios/Icon-80.png [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Icon-80.png[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Icon-80.png /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app36"848A0C61-AC98-4993-90D4-D98D0E883E38-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CGenerateDSYMFile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app.dSYM /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS
+s416965367.030336
+e416965370.405630
+r1
+xGenerateDSYMFile
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app.dSYM
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/MyGame iOS
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generate /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app.dSYM209"[1mGenerateDSYMFile[0m [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app.dSYM[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOSd5cf07f762dab841^c3d767fa62dab841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame%20iOS.app.dSYM00349c6cdcffdf42^827"[1mGenerateDSYMFile[0m [1m/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app.dSYM[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app.dSYM36"9C8B95F6-10DE-419C-8C54-1F4698CB4258-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CLd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS normal i386
+s416965366.310639
+e416965367.029507
+r1
+xLd
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/MyGame iOS
+xnormal
+xi386
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/MyGame iOS.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/AppController.o
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/RootViewController.o
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/AppDelegate.o
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/main.o
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame iOS.build/Objects-normal/i386/HelloWorldScene.o
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libbox2d iOS.a
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libchipmunk iOS.a
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libcocos2dx iOS.a
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libcocos2dx-extensions iOS.a
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libCocosDenshion iOS.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/MyGame iOS114"[1mLd[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS normal i386d9944ff662dab841^9f8e07f762dab841^---0#0#1#--2102"[1mLd[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS normal i386    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios -filelist /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/MyGame\ iOS.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -stdlib=libc++ -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libbox2d\ iOS.a /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libchipmunk\ iOS.a /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libcocos2dx\ iOS.a /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libcocos2dx-extensions\ iOS.a /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/libCocosDenshion\ iOS.a -framework CoreMotion -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -lz -framework QuartzCore -framework OpenAL -framework AVFoundation -framework AudioToolbox -Xlinker -dependency_info -Xlinker /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/Objects-normal/i386/MyGame\ iOS_dependency_info.dat -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/MyGame\ iOS36"3FBC17FC-492C-488F-8ED4-54EF157C62DE-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CProcessInfoPlistFile /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Info.plist /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Info.plist
+s416965364.868236
+e416965364.869817
+r1
+xProcessInfoPlistFile
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame iOS.app/Info.plist
+x/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Process /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Info.plist142"[1mProcessInfoPlistFile[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Info.plist [1mios/Info.plist[0mbd56def462dab841^0caddef462dab841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Info.plist0000000000000000^843"[1mProcessInfoPlistFile[0m /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Info.plist [1mios/Info.plist[0m    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Info.plist -genpkginfo /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app/Info.plist36"90DEE7DE-1565-4ECD-BF58-1995AF53E282-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CProcessPCH /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416965364.877450
+e416965365.073191
+r1
+xProcessPCH
+x/var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.pch
+xios/Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile ios/Prefix.pch268"[1mProcessPCH[0m /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler95b6e0f462dab841^7fbd12f562dab841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch0000000000000000^4500"[1mProcessPCH[0m /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios --serialize-diagnostics /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.d -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch -o /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-aejsofhshzsnycgmcyfudwzkkkew/Prefix.pch.pch36"59C22829-B514-45D1-826D-A099BEA5729C-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CProcessPCH++ /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416965364.876985
+e416965365.119063
+r1
+xProcessPCH++
+x/var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.pch
+xios/Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile ios/Prefix.pch272"[1mProcessPCH++[0m /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler7094e0f462dab841^6c7c1ef562dab841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch0000000000000000^4631"[1mProcessPCH++[0m /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.pch ios/Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios --serialize-diagnostics /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.d -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch -o /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-apfpylvjbarqkwgoxwmrgwkanxha/Prefix.pch.pch36"4D36D12F-BEA1-4DFB-8C39-CC8E180B80B1-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CProcessPCH++ /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.pch ios/Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416965364.877188
+e416965364.888970
+r1
+xProcessPCH++
+x/var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.pch
+xios/Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile ios/Prefix.pch262"[1mProcessPCH++[0m /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.pch ios/Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler7ba1e0f462dab841^9a93e3f462dab841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch0000000000000000^4374"[1mProcessPCH++[0m /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.pch ios/Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/cocos2d-x-3.0rc0/tools/cocos2d-console/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_IPHONE -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=5.0 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/MyGame\ iOS.hmap -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/base -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/physics -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/ui -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/network -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/extensions -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/../cocos2d/cocos/2d/platform/ios/Simulation -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources/i386 -I/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/build/MyGame.build/Debug-iphonesimulator/MyGame\ iOS.build/DerivedSources -F/Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios --serialize-diagnostics /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.d -c /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/proj.ios_mac/ios/Prefix.pch -o /var/folders/q_/k3n8k6t55b1f3psqjybdx_zm0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-cicxkkweltvhygaaidonfuccycke/Prefix.pch.pch36"F8816B22-3F9E-41DE-BE3F-54B62B1EC3B2-
+b5EC5C7B8-057F-4AEC-B484-5B626777D6DA
+
+CTouch /Users/marioacaudillomelgoza/MarioCaudillo/MyGame/bin/debug/ios/MyGame\ iOS.app
+r0
+
