@@ -17,6 +17,8 @@
 		0D2D8E9318DBA0FE009DEE39 /* Chuen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9018DBA0FE009DEE39 /* Chuen.wav */; };
 		0D2D8E9418DBA0FE009DEE39 /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9118DBA0FE009DEE39 /* endgame.wav */; };
 		0D2D8E9518DBA0FE009DEE39 /* forward.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9218DBA0FE009DEE39 /* forward.wav */; };
+		0D2D8EA018DBFBCF009DEE39 /* WhereamiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9F18DBFBCF009DEE39 /* WhereamiViewController.m */; };
+		0D2D8EA118DC07DF009DEE39 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2D8E9C18DBDEE9009DEE39 /* CoreLocation.framework */; };
 		1AC6FB1F180E996B004C840B /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFF180E9839004C840B /* libbox2d Mac.a */; };
 		1AC6FB20180E996B004C840B /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFD180E9839004C840B /* libchipmunk Mac.a */; };
 		1AC6FB21180E996B004C840B /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2dx Mac.a */; };
@@ -237,6 +239,19 @@
 		0D2D8E9018DBA0FE009DEE39 /* Chuen.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Chuen.wav; path = ../../../Documents/Chuen.wav; sourceTree = "<group>"; };
 		0D2D8E9118DBA0FE009DEE39 /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = endgame.wav; path = ../../../Documents/endgame.wav; sourceTree = "<group>"; };
 		0D2D8E9218DBA0FE009DEE39 /* forward.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = forward.wav; path = ../../../Documents/forward.wav; sourceTree = "<group>"; };
+		0D2D8E9C18DBDEE9009DEE39 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		0D2D8E9E18DBFBCF009DEE39 /* WhereamiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhereamiViewController.h; path = ../Classes/WhereamiViewController.h; sourceTree = "<group>"; };
+		0D2D8E9F18DBFBCF009DEE39 /* WhereamiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhereamiViewController.m; path = ../Classes/WhereamiViewController.m; sourceTree = "<group>"; };
+		0D2D8EA418DC18B0009DEE39 /* InterfaceJNI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceJNI.cpp; sourceTree = "<group>"; };
+		0D2D8EA518DC18B0009DEE39 /* InterfaceJNI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceJNI.h; sourceTree = "<group>"; };
+		0D2D8EAA18DC18B0009DEE39 /* CClocation.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = CClocation.java; sourceTree = "<group>"; };
+		0D2D8EAC18DC18B0009DEE39 /* CCCoreLocation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CCCoreLocation.cpp; sourceTree = "<group>"; };
+		0D2D8EAD18DC18B0009DEE39 /* CCCoreLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCCoreLocation.h; sourceTree = "<group>"; };
+		0D2D8EAF18DC18B0009DEE39 /* CoreLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreLocation.h; sourceTree = "<group>"; };
+		0D2D8EB018DC18B0009DEE39 /* CoreLocation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CoreLocation.mm; sourceTree = "<group>"; };
+		0D2D8EB118DC18B0009DEE39 /* CoreLocation_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreLocation_interface.h; sourceTree = "<group>"; };
+		0D2D8EB218DC18B0009DEE39 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0D2D8EB318DC18B0009DEE39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
@@ -296,6 +311,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2D8EA118DC07DF009DEE39 /* CoreLocation.framework in Frameworks */,
 				1AC6FB2E180E99EB004C840B /* libbox2d iOS.a in Frameworks */,
 				1AC6FB2F180E99EB004C840B /* libchipmunk iOS.a in Frameworks */,
 				1AC6FB30180E99EB004C840B /* libcocos2dx iOS.a in Frameworks */,
@@ -355,6 +371,80 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		0D2D8EA218DC18B0009DEE39 /* CCGeolocation-master */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EA318DC18B0009DEE39 /* android */,
+				0D2D8EAB18DC18B0009DEE39 /* Classes */,
+				0D2D8EAE18DC18B0009DEE39 /* ios */,
+				0D2D8EB218DC18B0009DEE39 /* LICENSE */,
+				0D2D8EB318DC18B0009DEE39 /* README.md */,
+			);
+			name = "CCGeolocation-master";
+			path = "../../../Downloads/CCGeolocation-master";
+			sourceTree = "<group>";
+		};
+		0D2D8EA318DC18B0009DEE39 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EA418DC18B0009DEE39 /* InterfaceJNI.cpp */,
+				0D2D8EA518DC18B0009DEE39 /* InterfaceJNI.h */,
+				0D2D8EA618DC18B0009DEE39 /* src */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		0D2D8EA618DC18B0009DEE39 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EA718DC18B0009DEE39 /* org */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0D2D8EA718DC18B0009DEE39 /* org */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EA818DC18B0009DEE39 /* mumblecore */,
+			);
+			path = org;
+			sourceTree = "<group>";
+		};
+		0D2D8EA818DC18B0009DEE39 /* mumblecore */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EA918DC18B0009DEE39 /* location */,
+			);
+			path = mumblecore;
+			sourceTree = "<group>";
+		};
+		0D2D8EA918DC18B0009DEE39 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EAA18DC18B0009DEE39 /* CClocation.java */,
+			);
+			path = location;
+			sourceTree = "<group>";
+		};
+		0D2D8EAB18DC18B0009DEE39 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EAC18DC18B0009DEE39 /* CCCoreLocation.cpp */,
+				0D2D8EAD18DC18B0009DEE39 /* CCCoreLocation.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0D2D8EAE18DC18B0009DEE39 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				0D2D8EAF18DC18B0009DEE39 /* CoreLocation.h */,
+				0D2D8EB018DC18B0009DEE39 /* CoreLocation.mm */,
+				0D2D8EB118DC18B0009DEE39 /* CoreLocation_interface.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +456,8 @@
 				0D2B337B18DA8BA0006192D8 /* HelpScene.h */,
 				0D2B337D18DA8BD9006192D8 /* RunScene.cpp */,
 				0D2B337E18DA8BD9006192D8 /* RunScene.h */,
+				0D2D8E9E18DBFBCF009DEE39 /* WhereamiViewController.h */,
+				0D2D8E9F18DBFBCF009DEE39 /* WhereamiViewController.m */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -414,6 +506,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0D2D8EA218DC18B0009DEE39 /* CCGeolocation-master */,
+				0D2D8E9C18DBDEE9009DEE39 /* CoreLocation.framework */,
 				D6B0611A1803AB670077942B /* CoreMotion.framework */,
 				503AE11A17EB9C5A00D1A890 /* IOKit.framework */,
 				503AE11117EB99EE00D1A890 /* libcurl.dylib */,
@@ -713,6 +807,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				0D2D8EA018DBFBCF009DEE39 /* WhereamiViewController.m in Sources */,
 				1AFAF8B816D35DE700DB1158 /* MainMenuScene.cpp in Sources */,
 				0D2B337C18DA8BA0006192D8 /* HelpScene.cpp in Sources */,
 				0D2B337F18DA8BD9006192D8 /* RunScene.cpp in Sources */,
@@ -811,7 +906,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
@@ -840,7 +935,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;

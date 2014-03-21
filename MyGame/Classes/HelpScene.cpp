@@ -83,7 +83,7 @@ bool HelpScene::init()
     homeButtonMenu->setPosition(Point::ZERO);
     this->addChild(homeButtonMenu, 1);
     
-    CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("Chuen.wav");
+    //CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("Chuen.wav");
     
     return true;
 }
