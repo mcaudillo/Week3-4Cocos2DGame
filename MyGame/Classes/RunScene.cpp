@@ -12,6 +12,7 @@ char text[256];
 int labelPointX;
 int labelPointY;
 float beginTime;
+bool win=false;
 
 Scene* RunScene::createScene()
 {
@@ -192,7 +193,8 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
     accpastz=accz;
     
     //second method for winning if the gps information is weak
-    if (steps==1313) {
+    if (steps==1313 && win==false) {
+        win=true;
         Director::getInstance()->pushScene(WinScene::createScene());
     }
     

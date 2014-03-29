@@ -63,7 +63,7 @@ bool WinScene::init()
     // add a label shows "Hello World"
     // create and initialize a label
     
-    auto label = LabelTTF::create("¡Ganaste!¡Chuentonización exitosa!", "Arial", 70);
+    auto label = LabelTTF::create("¡Ganaste!¡Chuentonización exitosa!", "Arial", 60);
     
     // position the label on the center of the screen
     label->setPosition(Point(origin.x + visibleSize.width/2,
@@ -90,8 +90,12 @@ bool WinScene::init()
     auto homeButtonMenu = Menu::create(homeButton,NULL);
     homeButtonMenu->setPosition(Point::ZERO);
     this->addChild(homeButtonMenu, 1);
-    CocosDenshion::SimpleAudioEngine::getInstance()->stopBackgroundMusic();
-    CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("fireworks.wav");
+    int i=0;
+    if (i==0) {
+        CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("fireworks.wav");
+        i++;
+    }
+    
     
     return true;
 }

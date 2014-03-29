@@ -240,6 +240,7 @@
 		0D1D4BBE18E6650000B01A5D /* fondoLost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondoLost.png; path = ../../../Documents/fondoLost.png; sourceTree = "<group>"; };
 		0D1D4BC018E6659E00B01A5D /* fondoWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondoWin.png; path = ../../../Documents/fondoWin.png; sourceTree = "<group>"; };
 		0D1D4BC218E6B1A000B01A5D /* fireworks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fireworks.wav; path = ../../../Documents/fireworks.wav; sourceTree = "<group>"; };
+		0D1D4BC418E6B79200B01A5D /* MyGame iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "MyGame iOS.entitlements"; sourceTree = "<group>"; };
 		0D2B337A18DA8BA0006192D8 /* HelpScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelpScene.cpp; sourceTree = "<group>"; };
 		0D2B337B18DA8BA0006192D8 /* HelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpScene.h; sourceTree = "<group>"; };
 		0D2B337D18DA8BD9006192D8 /* RunScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RunScene.cpp; path = ../Classes/RunScene.cpp; sourceTree = "<group>"; };
@@ -505,6 +506,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				0D1D4BC418E6B79200B01A5D /* MyGame iOS.entitlements */,
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				15AA9C4015B7EC450033D6C2 /* Classes */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -665,6 +667,11 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = CRUMS9ZHRA;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -906,6 +913,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = "MyGame iOS.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
@@ -939,6 +947,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = "MyGame iOS.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
