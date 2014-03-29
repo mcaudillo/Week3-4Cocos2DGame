@@ -90,8 +90,8 @@ bool WinScene::init()
     auto homeButtonMenu = Menu::create(homeButton,NULL);
     homeButtonMenu->setPosition(Point::ZERO);
     this->addChild(homeButtonMenu, 1);
-    
-    CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("chuen.wav");
+    CocosDenshion::SimpleAudioEngine::getInstance()->stopBackgroundMusic();
+    CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("fireworks.wav");
     
     return true;
 }

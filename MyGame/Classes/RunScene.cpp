@@ -69,7 +69,7 @@ bool RunScene::init()
     accpastx=0;
     accpasty=0;
     accpastz=0;
-    steps=0;
+    steps=1310;
     labelPointX=origin.x + visibleSize.width/2;
     labelPointY=origin.y + visibleSize.height/2;
     beginTime=0;
@@ -176,7 +176,7 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
         
         sprintf(text, "Kilómetros: %2f",steps*0.00076161462);
         
-        auto stepLabel = LabelTTF::create(text, "Arial", 40);
+        auto stepLabel = LabelTTF::create(text, "Arial", 80);
         
         // position the label on the center of the screen
         stepLabel->setPosition(Point(labelPointX,

@@ -12,6 +12,7 @@
 		0D1D4BBD18E6049800B01A5D /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BBC18E6049800B01A5D /* fondo.png */; };
 		0D1D4BBF18E6650000B01A5D /* fondoLost.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BBE18E6650000B01A5D /* fondoLost.png */; };
 		0D1D4BC118E6659E00B01A5D /* fondoWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BC018E6659E00B01A5D /* fondoWin.png */; };
+		0D1D4BC318E6B1A000B01A5D /* fireworks.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BC218E6B1A000B01A5D /* fireworks.wav */; };
 		0D2B337C18DA8BA0006192D8 /* HelpScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B337A18DA8BA0006192D8 /* HelpScene.cpp */; };
 		0D2B337F18DA8BD9006192D8 /* RunScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B337D18DA8BD9006192D8 /* RunScene.cpp */; };
 		0D2D8E8218DB5C89009DEE39 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E8018DB5C89009DEE39 /* help.png */; };
@@ -238,6 +239,7 @@
 		0D1D4BBC18E6049800B01A5D /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondo.png; path = ../../../Documents/fondo.png; sourceTree = "<group>"; };
 		0D1D4BBE18E6650000B01A5D /* fondoLost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondoLost.png; path = ../../../Documents/fondoLost.png; sourceTree = "<group>"; };
 		0D1D4BC018E6659E00B01A5D /* fondoWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondoWin.png; path = ../../../Documents/fondoWin.png; sourceTree = "<group>"; };
+		0D1D4BC218E6B1A000B01A5D /* fireworks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fireworks.wav; path = ../../../Documents/fireworks.wav; sourceTree = "<group>"; };
 		0D2B337A18DA8BA0006192D8 /* HelpScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelpScene.cpp; sourceTree = "<group>"; };
 		0D2B337B18DA8BA0006192D8 /* HelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpScene.h; sourceTree = "<group>"; };
 		0D2B337D18DA8BD9006192D8 /* RunScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RunScene.cpp; path = ../Classes/RunScene.cpp; sourceTree = "<group>"; };
@@ -586,6 +588,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D1D4BC218E6B1A000B01A5D /* fireworks.wav */,
 				0D1D4BC018E6659E00B01A5D /* fondoWin.png */,
 				0D1D4BBE18E6650000B01A5D /* fondoLost.png */,
 				0D1D4BBC18E6049800B01A5D /* fondo.png */,
@@ -777,6 +780,7 @@
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				0D2D8E8518DB68C2009DEE39 /* mapa.png in Resources */,
 				0D1D4BBD18E6049800B01A5D /* fondo.png in Resources */,
+				0D1D4BC318E6B1A000B01A5D /* fireworks.wav in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
