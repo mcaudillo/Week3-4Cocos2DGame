@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>04012D5C-55CD-4C07-9A92-213CAE4CB6D8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04539B34-5A80-40B6-96F9-318291CEE194</key>
+		<string>https://github.com/frranck/CCGeolocation.git</string>
+		<key>99C9BD42-8607-4BF7-9515-F85955BC24D3</key>
+		<string>https://github.com/mcaudillo/Week3-4Cocos2DGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyGame/proj.ios_mac/MyGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04539B34-5A80-40B6-96F9-318291CEE194</key>
+		<string>../../../../../Downloads/CCGeolocation-master/CCGeolocation</string>
+		<key>99C9BD42-8607-4BF7-9515-F85955BC24D3</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mcaudillo/Week3-4Cocos2DGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99C9BD42-8607-4BF7-9515-F85955BC24D3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04539B34-5A80-40B6-96F9-318291CEE194</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CCGeolocation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99C9BD42-8607-4BF7-9515-F85955BC24D3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MarioCaudillo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

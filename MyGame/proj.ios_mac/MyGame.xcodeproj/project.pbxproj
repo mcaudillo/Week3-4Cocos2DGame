@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1D4BB818E5FD1400B01A5D /* WinScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D4BB618E5FD1400B01A5D /* WinScene.cpp */; };
+		0D1D4BBB18E5FD2D00B01A5D /* LostScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D4BB918E5FD2D00B01A5D /* LostScene.cpp */; };
+		0D1D4BBD18E6049800B01A5D /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BBC18E6049800B01A5D /* fondo.png */; };
+		0D1D4BBF18E6650000B01A5D /* fondoLost.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BBE18E6650000B01A5D /* fondoLost.png */; };
+		0D1D4BC118E6659E00B01A5D /* fondoWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BC018E6659E00B01A5D /* fondoWin.png */; };
 		0D2B337C18DA8BA0006192D8 /* HelpScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B337A18DA8BA0006192D8 /* HelpScene.cpp */; };
 		0D2B337F18DA8BD9006192D8 /* RunScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B337D18DA8BD9006192D8 /* RunScene.cpp */; };
 		0D2D8E8218DB5C89009DEE39 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E8018DB5C89009DEE39 /* help.png */; };
@@ -17,7 +22,6 @@
 		0D2D8E9318DBA0FE009DEE39 /* Chuen.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9018DBA0FE009DEE39 /* Chuen.wav */; };
 		0D2D8E9418DBA0FE009DEE39 /* endgame.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9118DBA0FE009DEE39 /* endgame.wav */; };
 		0D2D8E9518DBA0FE009DEE39 /* forward.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9218DBA0FE009DEE39 /* forward.wav */; };
-		0D2D8EA018DBFBCF009DEE39 /* WhereamiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D2D8E9F18DBFBCF009DEE39 /* WhereamiViewController.m */; };
 		0D2D8EA118DC07DF009DEE39 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2D8E9C18DBDEE9009DEE39 /* CoreLocation.framework */; };
 		1AC6FB1F180E996B004C840B /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFF180E9839004C840B /* libbox2d Mac.a */; };
 		1AC6FB20180E996B004C840B /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAFD180E9839004C840B /* libchipmunk Mac.a */; };
@@ -227,6 +231,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1D4BB618E5FD1400B01A5D /* WinScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WinScene.cpp; path = ../proj.ios_mac/WinScene.cpp; sourceTree = "<group>"; };
+		0D1D4BB718E5FD1400B01A5D /* WinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinScene.h; path = ../proj.ios_mac/WinScene.h; sourceTree = "<group>"; };
+		0D1D4BB918E5FD2D00B01A5D /* LostScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LostScene.cpp; path = ../proj.ios_mac/LostScene.cpp; sourceTree = "<group>"; };
+		0D1D4BBA18E5FD2D00B01A5D /* LostScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LostScene.h; path = ../proj.ios_mac/LostScene.h; sourceTree = "<group>"; };
+		0D1D4BBC18E6049800B01A5D /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondo.png; path = ../../../Documents/fondo.png; sourceTree = "<group>"; };
+		0D1D4BBE18E6650000B01A5D /* fondoLost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondoLost.png; path = ../../../Documents/fondoLost.png; sourceTree = "<group>"; };
+		0D1D4BC018E6659E00B01A5D /* fondoWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondoWin.png; path = ../../../Documents/fondoWin.png; sourceTree = "<group>"; };
 		0D2B337A18DA8BA0006192D8 /* HelpScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelpScene.cpp; sourceTree = "<group>"; };
 		0D2B337B18DA8BA0006192D8 /* HelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpScene.h; sourceTree = "<group>"; };
 		0D2B337D18DA8BD9006192D8 /* RunScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RunScene.cpp; path = ../Classes/RunScene.cpp; sourceTree = "<group>"; };
@@ -240,8 +251,6 @@
 		0D2D8E9118DBA0FE009DEE39 /* endgame.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = endgame.wav; path = ../../../Documents/endgame.wav; sourceTree = "<group>"; };
 		0D2D8E9218DBA0FE009DEE39 /* forward.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = forward.wav; path = ../../../Documents/forward.wav; sourceTree = "<group>"; };
 		0D2D8E9C18DBDEE9009DEE39 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		0D2D8E9E18DBFBCF009DEE39 /* WhereamiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhereamiViewController.h; path = ../Classes/WhereamiViewController.h; sourceTree = "<group>"; };
-		0D2D8E9F18DBFBCF009DEE39 /* WhereamiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhereamiViewController.m; path = ../Classes/WhereamiViewController.m; sourceTree = "<group>"; };
 		0D2D8EA418DC18B0009DEE39 /* InterfaceJNI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InterfaceJNI.cpp; sourceTree = "<group>"; };
 		0D2D8EA518DC18B0009DEE39 /* InterfaceJNI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceJNI.h; sourceTree = "<group>"; };
 		0D2D8EAA18DC18B0009DEE39 /* CClocation.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = CClocation.java; sourceTree = "<group>"; };
@@ -450,14 +459,16 @@
 			children = (
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
+				0D1D4BB618E5FD1400B01A5D /* WinScene.cpp */,
+				0D1D4BB718E5FD1400B01A5D /* WinScene.h */,
+				0D1D4BB918E5FD2D00B01A5D /* LostScene.cpp */,
+				0D1D4BBA18E5FD2D00B01A5D /* LostScene.h */,
 				1AFAF8B516D35DE700DB1158 /* MainMenuScene.cpp */,
 				1AFAF8B616D35DE700DB1158 /* MainMenuScene.h */,
 				0D2B337A18DA8BA0006192D8 /* HelpScene.cpp */,
 				0D2B337B18DA8BA0006192D8 /* HelpScene.h */,
 				0D2B337D18DA8BD9006192D8 /* RunScene.cpp */,
 				0D2B337E18DA8BD9006192D8 /* RunScene.h */,
-				0D2D8E9E18DBFBCF009DEE39 /* WhereamiViewController.h */,
-				0D2D8E9F18DBFBCF009DEE39 /* WhereamiViewController.m */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -575,6 +586,9 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D1D4BC018E6659E00B01A5D /* fondoWin.png */,
+				0D1D4BBE18E6650000B01A5D /* fondoLost.png */,
+				0D1D4BBC18E6049800B01A5D /* fondo.png */,
 				0D2D8E9018DBA0FE009DEE39 /* Chuen.wav */,
 				0D2D8E9118DBA0FE009DEE39 /* endgame.wav */,
 				0D2D8E9218DBA0FE009DEE39 /* forward.wav */,
@@ -647,7 +661,7 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = MDDB52YB8L;
+						DevelopmentTeam = CRUMS9ZHRA;
 					};
 				};
 			};
@@ -758,9 +772,11 @@
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				0D2D8E9418DBA0FE009DEE39 /* endgame.wav in Resources */,
+				0D1D4BC118E6659E00B01A5D /* fondoWin.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				0D2D8E8518DB68C2009DEE39 /* mapa.png in Resources */,
+				0D1D4BBD18E6049800B01A5D /* fondo.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
@@ -768,6 +784,7 @@
 				0D2D8E8918DB787F009DEE39 /* menu.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
+				0D1D4BBF18E6650000B01A5D /* fondoLost.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
@@ -804,10 +821,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				0D1D4BB818E5FD1400B01A5D /* WinScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
-				0D2D8EA018DBFBCF009DEE39 /* WhereamiViewController.m in Sources */,
+				0D1D4BBB18E5FD2D00B01A5D /* LostScene.cpp in Sources */,
 				1AFAF8B816D35DE700DB1158 /* MainMenuScene.cpp in Sources */,
 				0D2B337C18DA8BA0006192D8 /* HelpScene.cpp in Sources */,
 				0D2B337F18DA8BD9006192D8 /* RunScene.cpp in Sources */,
@@ -885,6 +903,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -905,6 +924,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -916,6 +936,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -934,6 +955,7 @@
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
