@@ -85,7 +85,7 @@ bool RunScene::init()
     this->addChild(label, 1);
     
     
-    CocosDenshion::SimpleAudioEngine::getInstance()->stopBackgroundMusic();
+    //CocosDenshion::SimpleAudioEngine::getInstance()->stopBackgroundMusic();
     
     
 
@@ -209,12 +209,9 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
     
     
     //second method for losing (12 minutes) which is signal of not running at all
-    if (acc->timestamp -beginTime > 720) {
+    if (acc->timestamp -beginTime > 720 || (steps<325 && acc->timestamp -beginTime>360) || (steps<650 && acc->timestamp -beginTime>540)) {
         
         Director::getInstance()->pushScene(LostScene::createScene());
-    }else if (acc->timestamp -beginTime > 716 && acc->timestamp -beginTime < 719){
-        //play lost sound
-        CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("endgame.wav");
     }
     
 }

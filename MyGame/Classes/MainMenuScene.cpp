@@ -94,7 +94,7 @@ bool MainMenuScene::init()
     gameButtonMenu->setPosition(Point::ZERO);
     this->addChild(gameButtonMenu,1);
     
-    CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("Chuen.wav");
+    CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("Chuen.wav",true);
     
     return true;
 }

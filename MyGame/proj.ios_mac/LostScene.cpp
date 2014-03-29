@@ -7,6 +7,7 @@
 //
 
 #include "LostScene.h"
+#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
 
@@ -89,8 +90,8 @@ bool LostScene::init()
     auto homeButtonMenu = Menu::create(homeButton,NULL);
     homeButtonMenu->setPosition(Point::ZERO);
     this->addChild(homeButtonMenu, 1);
-    
-    
+    //sound effect
+    CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("endgame.wav");
     
     return true;
 }
