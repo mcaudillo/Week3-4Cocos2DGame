@@ -91,7 +91,7 @@ bool LostScene::init()
     homeButtonMenu->setPosition(Point::ZERO);
     this->addChild(homeButtonMenu, 1);
     //sound effect
-    CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("endgame.wav");
+    CocosDenshion::SimpleAudioEngine::getInstance()->playBackgroundMusic("endgame.wav");
     
     return true;
 }

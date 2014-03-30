@@ -3,16 +3,26 @@
 
 
 USING_NS_CC;
-
+//accelerator variables to check for the steps
 float accpastx;
 float accpasty;
 float accpastz;
+//steps variable
 int steps=0;
+//text to change the label number of steps with sprintf
 char text[256];
+//variables of position of the center of the screen
 int labelPointX;
 int labelPointY;
+//variable to help measure the time passed from the begining of the run
 float beginTime;
+//flag for win scene
 bool win=false;
+//distance atribute changed with the buttons 1k 5k and 10k,
+int distance=1;
+//position of the device when the user run.
+int position=1;
+
 
 Scene* RunScene::createScene()
 {
@@ -70,7 +80,7 @@ bool RunScene::init()
     accpastx=0;
     accpasty=0;
     accpastz=0;
-    steps=1310;
+    steps=0;
     labelPointX=origin.x + visibleSize.width/2;
     labelPointY=origin.y + visibleSize.height/2;
     beginTime=0;
@@ -104,8 +114,109 @@ bool RunScene::init()
     auto listener = EventListenerAcceleration::create(CC_CALLBACK_2(RunScene::onAcceleration, this));
     _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
     
+    //1k
+    auto run1kItem = MenuItemImage::create(
+                                           "run1k.png",
+                                           "run1k.png",
+                                           CC_CALLBACK_1(RunScene::run1kCallback, this));
+    
+	run1kItem->setPosition(Point(labelPointX/2 ,
+                                 labelPointY/2));
+    
+    // create menu, it's an autorelease object
+    auto run1kmenu = Menu::create(run1kItem, NULL);
+    run1kmenu->setPosition(Point::ZERO);
+    this->addChild(run1kmenu, 1);
+    
+    
+    //5k
+    auto run5kItem = MenuItemImage::create(
+                                           "run5k.png",
+                                           "run5k.png",
+                                           CC_CALLBACK_1(RunScene::run5kCallback, this));
+    
+	run5kItem->setPosition(Point(labelPointX ,
+                                 labelPointY/2));
+    
+    // create menu, it's an autorelease object
+    auto run5kmenu = Menu::create(run5kItem, NULL);
+    run5kmenu->setPosition(Point::ZERO);
+    this->addChild(run5kmenu, 1);
+    
+    //10k
+    auto run10kItem = MenuItemImage::create(
+                                           "run10k.png",
+                                           "run10k.png",
+                                           CC_CALLBACK_1(RunScene::run10kCallback, this));
+    
+	run10kItem->setPosition(Point(labelPointX*1.5 ,
+                                 labelPointY/2));
+    
+    // create menu, it's an autorelease object
+    auto run10kmenu = Menu::create(run10kItem, NULL);
+    run10kmenu->setPosition(Point::ZERO);
+    this->addChild(run10kmenu, 1);
+    
+    //hand
+    auto handItem = MenuItemImage::create(
+                                            "mano.png",
+                                            "mano.png",
+                                            CC_CALLBACK_1(RunScene::handCallback, this));
+    
+	handItem->setPosition(Point(labelPointX*.7 ,
+                                  labelPointY*1.5));
+    
+    // create menu, it's an autorelease object
+    auto handmenu = Menu::create(handItem, NULL);
+    handmenu->setPosition(Point::ZERO);
+    this->addChild(handmenu, 1);
+    
+    //pocket
+    auto pocketItem = MenuItemImage::create(
+                                            "bolsillo.png",
+                                            "bolsillo.png",
+                                            CC_CALLBACK_1(RunScene::pocketCallback, this));
+    
+	pocketItem->setPosition(Point(labelPointX*1.3 ,
+                                  labelPointY*1.5));
+    
+    // create menu, it's an autorelease object
+    auto pocketmenu = Menu::create(pocketItem, NULL);
+    pocketmenu->setPosition(Point::ZERO);
+    this->addChild(pocketmenu, 1);
+    
     
     return true;
+}
+
+void RunScene::run1kCallback(cocos2d::Ref* pSender){
+    
+    distance=1;
+
+}
+
+void RunScene::run5kCallback(cocos2d::Ref* pSender){
+    
+    distance=5;
+    
+}
+
+void RunScene::run10kCallback(cocos2d::Ref* pSender){
+    
+    distance=10;
+    
+}
+
+void RunScene::handCallback(cocos2d::Ref* pSender){
+    
+    position=1;
+    
+}
+
+void RunScene::pocketCallback(cocos2d::Ref* pSender){
+    
+    position=3;
+    
 }
                                           
 
@@ -162,7 +273,7 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
     }
     
     //if the change is a shake of the device add a step to the count
-    if (changex>.6 && changey>1 && changez>.6 ) {
+    if (changex>.6/position && changey>1/position && changez>.6/position ) {
         steps++;
         this->removeAllChildrenWithCleanup(true);
         
@@ -186,32 +297,48 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
         // add the label as a child to this layer
         this->addChild(stepLabel, 1);
         
+        // add a "close" icon to exit the progress. it's an autorelease object
+        auto closeItem = MenuItemImage::create(
+                                               "CloseNormal.png",
+                                               "CloseSelected.png",
+                                               CC_CALLBACK_1(RunScene::menuCloseCallback, this));
+        
+        closeItem->setPosition(Point(labelPointX*1.9 ,
+                                     labelPointY*.1));
+        
+        // create menu, it's an autorelease object
+        auto menu = Menu::create(closeItem, NULL);
+        menu->setPosition(Point::ZERO);
+        this->addChild(menu, 1);
+        
+        //method for winning
+        if (steps==1313*distance && win==false) {
+            win=true;
+            Director::getInstance()->pushScene(WinScene::createScene());
+        }
+        
         
     }
     accpastx=accx;
     accpasty=accy;
     accpastz=accz;
     
-    //second method for winning if the gps information is weak
-    if (steps==1313 && win==false) {
-        win=true;
-        Director::getInstance()->pushScene(WinScene::createScene());
-    }
+    
     
     //play warning to the user
     
     //if quarter half and three quarters of time have passed and the steps are not the 1/4, 1/2 and 3/4 of total steps
-    if (steps<325 && acc->timestamp -beginTime>180) {
+    if (steps<325*distance && acc->timestamp -beginTime>180*distance) {
         CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
-    }else if (steps<650 && acc->timestamp -beginTime>360){
+    }else if (steps<650*distance && acc->timestamp -beginTime>360*distance){
         CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
-    }else if (steps<975 && acc->timestamp -beginTime>540){
+    }else if (steps<975*distance && acc->timestamp -beginTime>540*distance){
         CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
     }
     
     
-    //second method for losing (12 minutes) which is signal of not running at all
-    if (acc->timestamp -beginTime > 720 || (steps<325 && acc->timestamp -beginTime>360) || (steps<650 && acc->timestamp -beginTime>540)) {
+    //second method for losing (12 minutes/km) which is signal of not running at all
+    if (acc->timestamp -beginTime > 720*distance || (steps<325*distance && acc->timestamp -beginTime>360*distance) || (steps<650*distance && acc->timestamp -beginTime>540*distance)) {
         
         Director::getInstance()->pushScene(LostScene::createScene());
     }

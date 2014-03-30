@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0FB88618E784C000C54F80 /* run1k.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0FB88318E784C000C54F80 /* run1k.png */; };
+		0D0FB88718E784C000C54F80 /* run5k.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0FB88418E784C000C54F80 /* run5k.png */; };
+		0D0FB88818E784C000C54F80 /* run10k.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D0FB88518E784C000C54F80 /* run10k.png */; };
+		0D15CC7818E7EC4900A0511C /* bolsillo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D15CC7618E7EC4900A0511C /* bolsillo.png */; };
+		0D15CC7918E7EC4900A0511C /* mano.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D15CC7718E7EC4900A0511C /* mano.png */; };
+		0D15CC7B18E7EEEA00A0511C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D15CC7A18E7EEEA00A0511C /* Images.xcassets */; };
 		0D1D4BB818E5FD1400B01A5D /* WinScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D4BB618E5FD1400B01A5D /* WinScene.cpp */; };
 		0D1D4BBB18E5FD2D00B01A5D /* LostScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D4BB918E5FD2D00B01A5D /* LostScene.cpp */; };
 		0D1D4BBD18E6049800B01A5D /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BBC18E6049800B01A5D /* fondo.png */; };
@@ -232,6 +238,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0FB88318E784C000C54F80 /* run1k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run1k.png; path = ../../../Documents/run1k.png; sourceTree = "<group>"; };
+		0D0FB88418E784C000C54F80 /* run5k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run5k.png; path = ../../../Documents/run5k.png; sourceTree = "<group>"; };
+		0D0FB88518E784C000C54F80 /* run10k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run10k.png; path = ../../../Documents/run10k.png; sourceTree = "<group>"; };
+		0D15CC7618E7EC4900A0511C /* bolsillo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bolsillo.png; path = ../../../Documents/bolsillo.png; sourceTree = "<group>"; };
+		0D15CC7718E7EC4900A0511C /* mano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mano.png; path = ../../../Documents/mano.png; sourceTree = "<group>"; };
+		0D15CC7A18E7EEEA00A0511C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CorreChuen/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		0D1D4BB618E5FD1400B01A5D /* WinScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WinScene.cpp; path = ../proj.ios_mac/WinScene.cpp; sourceTree = "<group>"; };
 		0D1D4BB718E5FD1400B01A5D /* WinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinScene.h; path = ../proj.ios_mac/WinScene.h; sourceTree = "<group>"; };
 		0D1D4BB918E5FD2D00B01A5D /* LostScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LostScene.cpp; path = ../proj.ios_mac/LostScene.cpp; sourceTree = "<group>"; };
@@ -274,7 +286,7 @@
 		1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
 		1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D6058910D05DD3D006BFB54 /* MyGame iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyGame iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* CorreChuen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorreChuen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
@@ -480,7 +492,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* MyGame iOS.app */,
+				1D6058910D05DD3D006BFB54 /* CorreChuen.app */,
 				5087E76F17EB910900C73F5D /* MyGame Mac.app */,
 			);
 			name = Products;
@@ -590,6 +602,12 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D15CC7A18E7EEEA00A0511C /* Images.xcassets */,
+				0D15CC7618E7EC4900A0511C /* bolsillo.png */,
+				0D15CC7718E7EC4900A0511C /* mano.png */,
+				0D0FB88318E784C000C54F80 /* run1k.png */,
+				0D0FB88418E784C000C54F80 /* run5k.png */,
+				0D0FB88518E784C000C54F80 /* run10k.png */,
 				0D1D4BC218E6B1A000B01A5D /* fireworks.wav */,
 				0D1D4BC018E6659E00B01A5D /* fondoWin.png */,
 				0D1D4BBE18E6650000B01A5D /* fondoLost.png */,
@@ -613,9 +631,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* MyGame iOS */ = {
+		1D6058900D05DD3D006BFB54 /* CorreChuen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyGame iOS" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CorreChuen" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -630,9 +648,9 @@
 				1AC6FB2B180E99E1004C840B /* PBXTargetDependency */,
 				1AC6FB2D180E99E1004C840B /* PBXTargetDependency */,
 			);
-			name = "MyGame iOS";
+			name = CorreChuen;
 			productName = iphone;
-			productReference = 1D6058910D05DD3D006BFB54 /* MyGame iOS.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* CorreChuen.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5087E73D17EB910900C73F5D /* MyGame Mac */ = {
@@ -668,6 +686,12 @@
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = CRUMS9ZHRA;
 						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
 							com.apple.InterAppAudio = {
 								enabled = 1;
 							};
@@ -695,7 +719,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* MyGame iOS */,
+				1D6058900D05DD3D006BFB54 /* CorreChuen */,
 				5087E73D17EB910900C73F5D /* MyGame Mac */,
 			);
 		};
@@ -779,24 +803,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D15CC7818E7EC4900A0511C /* bolsillo.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				0D15CC7918E7EC4900A0511C /* mano.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				0D2D8E9418DBA0FE009DEE39 /* endgame.wav in Resources */,
 				0D1D4BC118E6659E00B01A5D /* fondoWin.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				0D15CC7B18E7EEEA00A0511C /* Images.xcassets in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				0D2D8E8518DB68C2009DEE39 /* mapa.png in Resources */,
 				0D1D4BBD18E6049800B01A5D /* fondo.png in Resources */,
 				0D1D4BC318E6B1A000B01A5D /* fireworks.wav in Resources */,
+				0D0FB88718E784C000C54F80 /* run5k.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				0D2D8E9518DBA0FE009DEE39 /* forward.wav in Resources */,
+				0D0FB88618E784C000C54F80 /* run1k.png in Resources */,
 				0D2D8E8918DB787F009DEE39 /* menu.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				0D1D4BBF18E6650000B01A5D /* fondoLost.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				0D0FB88818E784C000C54F80 /* run10k.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				0D2D8E8318DB5C89009DEE39 /* run.png in Resources */,
@@ -913,6 +943,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "MyGame iOS.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -947,6 +979,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "MyGame iOS.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1093,7 +1127,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MyGame iOS" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CorreChuen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,

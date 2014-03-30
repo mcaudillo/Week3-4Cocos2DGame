@@ -16,6 +16,11 @@ public:
     
     // selector callbacks
     void menuCloseCallback(cocos2d::Ref* pSender);
+    void run1kCallback(cocos2d::Ref* pSender);
+    void run5kCallback(cocos2d::Ref* pSender);
+    void run10kCallback(cocos2d::Ref* pSender);
+    void handCallback(cocos2d::Ref* pSender);
+    void pocketCallback(cocos2d::Ref* pSender);
     void onAcceleration(cocos2d::Acceleration* acc, cocos2d::Event* event);
     
     // implement the "static create()" method manually
