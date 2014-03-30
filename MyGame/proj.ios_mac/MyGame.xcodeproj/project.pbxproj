@@ -13,6 +13,11 @@
 		0D15CC7818E7EC4900A0511C /* bolsillo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D15CC7618E7EC4900A0511C /* bolsillo.png */; };
 		0D15CC7918E7EC4900A0511C /* mano.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D15CC7718E7EC4900A0511C /* mano.png */; };
 		0D15CC7B18E7EEEA00A0511C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D15CC7A18E7EEEA00A0511C /* Images.xcassets */; };
+		0D1AF03918E8881A0021FBEF /* bolsillodown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1AF03418E8881A0021FBEF /* bolsillodown.png */; };
+		0D1AF03A18E8881A0021FBEF /* manodown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1AF03518E8881A0021FBEF /* manodown.png */; };
+		0D1AF03B18E8881A0021FBEF /* run1kdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1AF03618E8881A0021FBEF /* run1kdown.png */; };
+		0D1AF03C18E8881A0021FBEF /* run5kdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1AF03718E8881A0021FBEF /* run5kdown.png */; };
+		0D1AF03D18E8881A0021FBEF /* run10kdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1AF03818E8881A0021FBEF /* run10kdown.png */; };
 		0D1D4BB818E5FD1400B01A5D /* WinScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D4BB618E5FD1400B01A5D /* WinScene.cpp */; };
 		0D1D4BBB18E5FD2D00B01A5D /* LostScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D1D4BB918E5FD2D00B01A5D /* LostScene.cpp */; };
 		0D1D4BBD18E6049800B01A5D /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D1D4BBC18E6049800B01A5D /* fondo.png */; };
@@ -244,6 +249,11 @@
 		0D15CC7618E7EC4900A0511C /* bolsillo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bolsillo.png; path = ../../../Documents/bolsillo.png; sourceTree = "<group>"; };
 		0D15CC7718E7EC4900A0511C /* mano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mano.png; path = ../../../Documents/mano.png; sourceTree = "<group>"; };
 		0D15CC7A18E7EEEA00A0511C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CorreChuen/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		0D1AF03418E8881A0021FBEF /* bolsillodown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bolsillodown.png; path = ../../../Documents/bolsillodown.png; sourceTree = "<group>"; };
+		0D1AF03518E8881A0021FBEF /* manodown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = manodown.png; path = ../../../Documents/manodown.png; sourceTree = "<group>"; };
+		0D1AF03618E8881A0021FBEF /* run1kdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run1kdown.png; path = ../../../Documents/run1kdown.png; sourceTree = "<group>"; };
+		0D1AF03718E8881A0021FBEF /* run5kdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run5kdown.png; path = ../../../Documents/run5kdown.png; sourceTree = "<group>"; };
+		0D1AF03818E8881A0021FBEF /* run10kdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = run10kdown.png; path = ../../../Documents/run10kdown.png; sourceTree = "<group>"; };
 		0D1D4BB618E5FD1400B01A5D /* WinScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WinScene.cpp; path = ../proj.ios_mac/WinScene.cpp; sourceTree = "<group>"; };
 		0D1D4BB718E5FD1400B01A5D /* WinScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WinScene.h; path = ../proj.ios_mac/WinScene.h; sourceTree = "<group>"; };
 		0D1D4BB918E5FD2D00B01A5D /* LostScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LostScene.cpp; path = ../proj.ios_mac/LostScene.cpp; sourceTree = "<group>"; };
@@ -602,6 +612,11 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0D1AF03418E8881A0021FBEF /* bolsillodown.png */,
+				0D1AF03518E8881A0021FBEF /* manodown.png */,
+				0D1AF03618E8881A0021FBEF /* run1kdown.png */,
+				0D1AF03718E8881A0021FBEF /* run5kdown.png */,
+				0D1AF03818E8881A0021FBEF /* run10kdown.png */,
 				0D15CC7A18E7EEEA00A0511C /* Images.xcassets */,
 				0D15CC7618E7EC4900A0511C /* bolsillo.png */,
 				0D15CC7718E7EC4900A0511C /* mano.png */,
@@ -806,6 +821,7 @@
 				0D15CC7818E7EC4900A0511C /* bolsillo.png in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				0D15CC7918E7EC4900A0511C /* mano.png in Resources */,
+				0D1AF03918E8881A0021FBEF /* bolsillodown.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				0D2D8E9418DBA0FE009DEE39 /* endgame.wav in Resources */,
 				0D1D4BC118E6659E00B01A5D /* fondoWin.png in Resources */,
@@ -819,10 +835,14 @@
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				0D1AF03B18E8881A0021FBEF /* run1kdown.png in Resources */,
+				0D1AF03D18E8881A0021FBEF /* run10kdown.png in Resources */,
 				0D2D8E9518DBA0FE009DEE39 /* forward.wav in Resources */,
 				0D0FB88618E784C000C54F80 /* run1k.png in Resources */,
+				0D1AF03C18E8881A0021FBEF /* run5kdown.png in Resources */,
 				0D2D8E8918DB787F009DEE39 /* menu.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				0D1AF03A18E8881A0021FBEF /* manodown.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				0D1D4BBF18E6650000B01A5D /* fondoLost.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,

@@ -18,6 +18,7 @@ int labelPointY;
 float beginTime;
 //flag for win scene
 bool win=false;
+bool lose=false;
 //distance atribute changed with the buttons 1k 5k and 10k,
 int distance=1;
 //position of the device when the user run.
@@ -80,7 +81,7 @@ bool RunScene::init()
     accpastx=0;
     accpasty=0;
     accpastz=0;
-    steps=0;
+    steps=1311;
     labelPointX=origin.x + visibleSize.width/2;
     labelPointY=origin.y + visibleSize.height/2;
     beginTime=0;
@@ -109,6 +110,7 @@ bool RunScene::init()
     // add the sprite as a child to this layer
     this->addChild(sprite, 0);
     
+    //activate accelerometer of the device and add a listener
     Device::setAccelerometerEnabled(true);
     
     auto listener = EventListenerAcceleration::create(CC_CALLBACK_2(RunScene::onAcceleration, this));
@@ -117,7 +119,7 @@ bool RunScene::init()
     //1k
     auto run1kItem = MenuItemImage::create(
                                            "run1k.png",
-                                           "run1k.png",
+                                           "run1kdown.png",
                                            CC_CALLBACK_1(RunScene::run1kCallback, this));
     
 	run1kItem->setPosition(Point(labelPointX/2 ,
@@ -132,7 +134,7 @@ bool RunScene::init()
     //5k
     auto run5kItem = MenuItemImage::create(
                                            "run5k.png",
-                                           "run5k.png",
+                                           "run5kdown.png",
                                            CC_CALLBACK_1(RunScene::run5kCallback, this));
     
 	run5kItem->setPosition(Point(labelPointX ,
@@ -146,7 +148,7 @@ bool RunScene::init()
     //10k
     auto run10kItem = MenuItemImage::create(
                                            "run10k.png",
-                                           "run10k.png",
+                                           "run10kdown.png",
                                            CC_CALLBACK_1(RunScene::run10kCallback, this));
     
 	run10kItem->setPosition(Point(labelPointX*1.5 ,
@@ -160,7 +162,7 @@ bool RunScene::init()
     //hand
     auto handItem = MenuItemImage::create(
                                             "mano.png",
-                                            "mano.png",
+                                            "manodown.png",
                                             CC_CALLBACK_1(RunScene::handCallback, this));
     
 	handItem->setPosition(Point(labelPointX*.7 ,
@@ -174,7 +176,7 @@ bool RunScene::init()
     //pocket
     auto pocketItem = MenuItemImage::create(
                                             "bolsillo.png",
-                                            "bolsillo.png",
+                                            "bolsillodown.png",
                                             CC_CALLBACK_1(RunScene::pocketCallback, this));
     
 	pocketItem->setPosition(Point(labelPointX*1.3 ,
@@ -215,18 +217,13 @@ void RunScene::handCallback(cocos2d::Ref* pSender){
 
 void RunScene::pocketCallback(cocos2d::Ref* pSender){
     
-    position=3;
+    position=6;
     
 }
                                           
 
 void RunScene::onAcceleration(Acceleration* acc, Event* event)
 {
-    if (beginTime==0) {
-        beginTime=acc->timestamp;
-    }
-    
-    
     //acceleration x and give a variable change between the accelerometer values
     float accx;
     float changex;
@@ -273,7 +270,13 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
     }
     
     //if the change is a shake of the device add a step to the count
-    if (changex>.6/position && changey>1/position && changez>.6/position ) {
+    if (changex>.6/position && changey>.6/position && changez>.6/position ) {
+        
+        //initialize timer
+        if (steps==0) {
+            beginTime=acc->timestamp;
+        }
+        
         steps++;
         this->removeAllChildrenWithCleanup(true);
         
@@ -286,7 +289,7 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
         // add the sprite as a child to this layer
         this->addChild(sprite, 1);
         
-        sprintf(text, "Kilómetros: %2f",steps*0.00076161462);
+        sprintf(text, "Kilómetros: %2f \n Tiempo: %2f s.",steps*0.00076161462,acc->timestamp-beginTime);
         
         auto stepLabel = LabelTTF::create(text, "Arial", 80);
         
@@ -325,22 +328,24 @@ void RunScene::onAcceleration(Acceleration* acc, Event* event)
     
     
     
-    //play warning to the user
+    //play warning to the user if started to run
+    if (beginTime!=0) {
     
-    //if quarter half and three quarters of time have passed and the steps are not the 1/4, 1/2 and 3/4 of total steps
-    if (steps<325*distance && acc->timestamp -beginTime>180*distance) {
-        CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
-    }else if (steps<650*distance && acc->timestamp -beginTime>360*distance){
-        CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
-    }else if (steps<975*distance && acc->timestamp -beginTime>540*distance){
-        CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
-    }
+        //if quarter half and three quarters of time have passed and the steps are not the 1/4, 1/2 and 3/4 of total steps
+        if (steps<325*distance && acc->timestamp -beginTime>180*distance) {
+            CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
+        }else if (steps<650*distance && acc->timestamp -beginTime>360*distance){
+            CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
+        }else if (steps<975*distance && acc->timestamp -beginTime>540*distance){
+            CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("forward.wav");
+        }
     
     
-    //second method for losing (12 minutes/km) which is signal of not running at all
-    if (acc->timestamp -beginTime > 720*distance || (steps<325*distance && acc->timestamp -beginTime>360*distance) || (steps<650*distance && acc->timestamp -beginTime>540*distance)) {
-        
-        Director::getInstance()->pushScene(LostScene::createScene());
+        //second method for losing (12 minutes/km) which is signal of not running at all
+        if ((acc->timestamp -beginTime > 720*distance || (steps<325*distance && acc->timestamp -beginTime>360*distance) || (steps<650*distance && acc->timestamp -beginTime>540*distance)) && lose==false) {
+                lose=true;
+                Director::getInstance()->pushScene(LostScene::createScene());
+        }
     }
     
 }
