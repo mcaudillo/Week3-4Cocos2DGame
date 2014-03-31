@@ -81,7 +81,7 @@ bool RunScene::init()
     accpastx=0;
     accpasty=0;
     accpastz=0;
-    steps=1311;
+    steps=0;
     labelPointX=origin.x + visibleSize.width/2;
     labelPointY=origin.y + visibleSize.height/2;
     beginTime=0;
